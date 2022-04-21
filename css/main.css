@@ -1,0 +1,415 @@
+/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+main {
+  display: block;
+}
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+pre {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+a {
+  background-color: transparent;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted;
+}
+b,
+strong {
+  font-weight: bolder;
+}
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+small {
+  font-size: 80%;
+}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+sub {
+  bottom: -0.25em;
+}
+sup {
+  top: -0.5em;
+}
+img {
+  border-style: none;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+button,
+input {
+  overflow: visible;
+}
+button,
+select {
+  text-transform: none;
+}
+[type="button"],
+[type="reset"],
+[type="submit"],
+button {
+  -webkit-appearance: button;
+}
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner,
+button::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring,
+button:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal;
+}
+progress {
+  vertical-align: baseline;
+}
+textarea {
+  overflow: auto;
+}
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+[type="search"] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px;
+}
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit;
+}
+details {
+  display: block;
+}
+summary {
+  display: list-item;
+}
+template {
+  display: none;
+}
+[hidden] {
+  display: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Display";
+  overflow-x: hidden;
+}
+
+.border {
+  height: 130vh;
+  width: 92px;
+}
+
+.intro_border {
+  width: 40px;
+}
+
+.right_border {
+  transform: rotate(180deg);
+}
+
+.big_container {
+  max-width: 1920px;
+  box-sizing: border-box;
+  display: flex;
+  margin: 0px auto;
+  border: 3px solid #cbcbcb;
+  height: 130vh;
+}
+
+.container {
+  max-width: 787px;
+  margin: 0px auto;
+}
+
+.container-actual {
+  max-width: 667.44px;
+  margin: 0px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left_box {
+  margin-top: 58px;
+  margin-left: 55px;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+
+.header {
+  margin-bottom: 20px;
+}
+
+.header_wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.logo_img {
+  border-radius: 50%;
+  margin-right: 20px;
+  border: 3px solid;
+  border-image: linear-gradient(45deg, red, rgb(197, 32, 186)) 10;
+  background: linear-gradient(to right, red, rgb(197, 32, 186));
+}
+
+.logo_text {
+  width: 145.88px;
+  color: #000;
+}
+
+.search {
+  margin-right: 107px;
+  background: #efefef;
+  border-radius: 7px;
+  width: 280px;
+  border: transparent 1px solid;
+  padding: 5px;
+}
+.search::placeholder {
+  padding-left: 42px;
+}
+
+.top-container {
+  margin-top: 22px;
+}
+
+.top-container__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img {
+  width: 360px;
+  margin-right: 17.35px;
+}
+
+.img-1 {
+  width: 122px;
+}
+
+.actual_subject {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  width: 668px;
+  overflow-x: auto;
+}
+
+.list::-webkit-scrollbar {
+  display: none;
+}
+
+@keyframes move {
+  20%,
+  100% {
+    transform: translate(133px, 0);
+  }
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  animation: move 4s infinite ease-in-out;
+  margin-right: 50px;
+}
+
+.img-2 {
+  border: 3px solid;
+  border-image: linear-gradient(45deg, red, rgb(197, 32, 186)) 10;
+  background: linear-gradient(to right, red, rgb(197, 32, 186));
+  border-radius: 50%;
+}
+
+.other_goods__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.other_goods__subject {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+}
+
+.other_goods__list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.right_box {
+  max-width: 832px;
+  overflow-y: auto;
+  height: 125vh;
+}
+.right_box::-webkit-scrollbar {
+  display: none;
+}
+
+.articles_list {
+  width: 832px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 50px 0 80px;
+}
+
+.articles_item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fcfcfc;
+  border-radius: 7px;
+  border: 1px solid #ca157a;
+  height: 170px;
+  margin-bottom: 50px;
+}
+
+.articles_img_box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.articles_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  padding: 0 32px 10px;
+  width: 70%;
+}
+
+.articles_subject {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  color: #000000;
+  padding: 0;
+  margin: 0;
+  margin-top: 10px;
+}
+
+.articles_box {
+  height: 80px;
+  overflow-y: auto;
+}
+.articles_box::-webkit-scrollbar {
+  display: none;
+}
+.articles_text {
+  padding: 0;
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.articles_btn {
+  font-family: "SF Pro Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #000000;
+  border: transparent;
+  background-color: transparent;
+  margin-top: 10px;
+}
